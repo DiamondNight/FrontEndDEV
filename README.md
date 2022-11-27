@@ -25,3 +25,11 @@ Comienzo del curso Frontend Developer PLATZI
 * ::before
 * ::firs-letter
 * ::placeholder
+
+# Especificidad por Jerarquia
+* !Important
+* Estilos en Línea
+* #ID
+* Clases, Atributos y PseudoClases
+* Elementos y PseudoElementos
+* Selector Universal
