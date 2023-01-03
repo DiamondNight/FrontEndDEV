@@ -33,3 +33,10 @@ Comienzo del curso Frontend Developer PLATZI
 * Clases, Atributos y PseudoClases
 * Elementos y PseudoElementos
 * Selector Universal
+
+# Display
+* Block 
+* Inline
+* Inline-block
+* Flex
+* Grid
