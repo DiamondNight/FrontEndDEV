@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+        .container {
+            width: 500px;
+            height: 800px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 175px;
+        }
+        .card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            width: 500px;
+            height: 800px;
+            background-color: rgb(71, 64, 64);
+            border: 5px solid rgb(255, 255, 255);
+        }
+        .card .espacioFondo {
+            width: 100%;
+            height: 40%;
+        }
+        .card .nikeLogo {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            left: 198px;
+            top: 33%;
+            border: 2px solid;
+        }
+        .card h2 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 5px;
+            color: azure;
+        }
+        .card h3 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            color: rgb(218, 226, 226); 
+            margin-top: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="container">
+        <div class="card">
+           <img src="./IMG/space-background-with-colorful-planet-free-vector.jpg" alt="Espacio" class="espacioFondo"> 
+           <img src="./IMG/logo_nike_principal.jpg" alt="Nike" class="nikeLogo">
+           <h2>Luis F. Castro Alves</h2>
+           <h3>FrontEnd Student</h3>
+        </div>
+    </section>
+</body>
+</html>
