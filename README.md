@@ -38,5 +38,5 @@ Comienzo del curso Frontend Developer PLATZI
 * Block 
 * Inline
 * Inline-block
-* Flex
-* Grid
+* Flex [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
+* Grid [https://css-tricks.com/snippets/css/complete-guide-grid/]
